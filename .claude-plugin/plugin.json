@@ -1,0 +1,26 @@
+{
+  "name": "elo",
+  "displayName": "Elo",
+  "version": "1.0.0",
+  "description": "Find products to buy from a request, with current prices from stores in your country and a link to each product.",
+  "author": {
+    "name": "Elo",
+    "email": "contact@elo.ad",
+    "url": "https://elo.ad"
+  },
+  "homepage": "https://elo.ad",
+  "license": "MIT",
+  "repository": "https://github.com/growlads/elo-claude-plugin",
+  "keywords": ["shopping", "products", "prices", "gifts"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://docs.beta.elo.ad/guides/mcp-server/",
+  "supportUrl": "https://docs.beta.elo.ad/guides/mcp-server/",
+  "privacyPolicyUrl": "https://elo.ad/privacy",
+  "termsOfServiceUrl": "https://elo.ad/terms",
+  "mcpServers": {
+    "elo": {
+      "type": "http",
+      "url": "https://mcp.elo.ad/mcp"
+    }
+  }
+}
